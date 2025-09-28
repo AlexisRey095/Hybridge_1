@@ -1,4 +1,4 @@
-#ejercicio para trabajar lo trabajo en la seccion 3 del libro
+#*ejercicio para trabajar lo trabajo en la seccion 3 del libro
 
 places = ['tlaxcala', 'veracruz', 'guadalajara', 'tequila', 'durango']
 print (places)
@@ -9,3 +9,32 @@ print(places)
 places.sort(reverse=True)
 print(places)
 print(len(places))
+
+#*----- Trabanandon con numeros en listas
+
+print('\n')
+for value in range(1,21):
+    print(value)
+
+#?-Reviesar for million in range(1,1_000_001):
+    #?-revisar print(million)
+
+print('\n')
+for impar in range(1,21,2):
+    print(impar)
+
+print('\n')
+pares = []
+for par in range(1,31):
+    if par%3 == 0:
+        pares.append(par)
+print(pares)
+
+print('\n')
+cubos = [valor**3 for valor in range(1,11)]
+print(cubos)
+
+print('\n')
+print(places[1])
+
+# *Trabajando con Datos avanzados en listas ------ 
