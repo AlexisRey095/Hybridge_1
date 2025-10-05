@@ -38,3 +38,13 @@ print('\n')
 print(places[1])
 
 # *Trabajando con Datos avanzados en listas ------ 
+
+#Ejercicio 2
+
+usernames = ['alex', 'karen', 'pedro', 'admin', 'antonio']
+
+for username in usernames:
+    if username == "admin":
+        print('Hola Admin,  Quieres ver el repore de hoy?')
+    else:
+        print(f'hola {username}, un gusto saludarte')
