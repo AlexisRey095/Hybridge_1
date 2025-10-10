@@ -43,12 +43,12 @@ print(places[1])
 
 usernames = ['alex', 'karen', 'pedro', 'admin', 'antonio']
 
-'''for username in usernames:
+for username in usernames:
     if username == "admin":
         print('Hola Admin,  Quieres ver el repore de hoy?')
     else:
         print(f'hola {username}, un gusto saludarte')
-'''
+
 if usernames:
     for username in usernames:
             if username == 'admin':
