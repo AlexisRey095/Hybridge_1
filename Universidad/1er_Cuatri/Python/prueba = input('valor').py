@@ -1,3 +1,6 @@
-prueba = int(input('valor1: '))
-ingredientes = input('ingresa ingredientes:')
-print(145*prueba)
+lista = ['VALOR1', 'VALOR2']
+lista2 = lista[:]
+lista2.reverse()
+
+print(lista)
+print(lista2)
