@@ -1,0 +1,5 @@
+En este archivo vamos a encontrar
+un valor apropiado para el ejemplo 
+realizado en python.
+Mi nombre es Alexis Reyes y el nombre del
+amor de mi vida es Karen Cabrera
