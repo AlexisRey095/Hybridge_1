@@ -1,4 +1,4 @@
-from tkinter import *
+'''from tkinter import *
 from tkinter import ttk # Importar ttk
 
 root = Tk()
@@ -36,5 +36,20 @@ etiqueta.pack(padx=10, pady=10, ipadx=10, ipady=10)
 
 button.pack(pady=20)
 root.mainloop()
+'''
 
+from tkinter import *
 
+root = Tk()
+root.geometry("200x200")
+etiqueta = Label(text="Mi programa", background="blue" )
+botton = Button(
+    text="soy un boton",
+    activebackground="green",
+    highlightbackground="yellow",
+    highlightthickness="1"
+    )
+etiqueta.pack(padx=10, pady=10)
+botton.pack(padx=10, pady=10)
+
+root.mainloop()
