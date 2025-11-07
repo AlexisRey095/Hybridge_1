@@ -16,3 +16,4 @@ reloj = Label(textvariable= variable_control, fg="red",
 
 reloj.pack()
 actualizar_hora()
+root.mainloop()
